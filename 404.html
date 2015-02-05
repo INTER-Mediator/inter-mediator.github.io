@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>404 Not Found</title>
+        <script type="text/javascript" language="JavaScript">
+            var pathname = window.location.pathname;
+            var filePaths = [
+                "/archives/IM-Study-2014-7-matsuo.pdf",
+                "/archives/IM-Study-2014-7-iijima.pdf",
+                "/archives/IM-Study-2014-7-kobayashi.mov",
+                "/archives/IM-Study-2014-6-iijima.mov",
+                "/archives/IM-Study-2014-6-nii.mov",
+                "/archives/IM-Study-2014-6-matsuo.mov",
+                "/archives/im-study-2014-4-psql.mov",
+                "/archives/im-study-2014-4-Updates.mov",
+                "/archives/im-study-2014-2-Updates.mov",
+                "/archives/im-study-2014-2-fluent.mp4",
+                "/archives/im-study-2014-2-fmpress.mov",
+                "/archives/IMStudy-2014_1_nii.pdf",
+                "/archives/IM-Study-2013-2-1.m4v",
+                "/archives/IM-Study-2013-2-2.m4v",
+                "/archives/IM-Study-2013-2-3.m4v",
+                "/archives/im-meetup3.pdf",
+                "/archives/im-meetup3.m4v",
+                "/archives/Intro-IM-March2012.m4v",
+                "/archives/IM_Meetup-01.pdf",
+                "/archives/ServerNight25-im.pdf",
+                "/archives/DBS-153-B-3-4.pdf",
+                "/archives/IPSJ-DB153-NII.pdf",
+                "/archives/MOXSSG40-IM.pdf",
+                "/files/IM_Meetup02.pdf",
+                "/files/OSC2012_DB_IM.pdf"
+			];
+            for(var i = 0; i < filePaths.length; i++){
+                if(filePaths[i] === pathname){
+                    window.location.href = "http://inter-mediator.com" + pathname;
+                    break;
+                };
+            };
+        </script>
+    </head>
+<body>
+<h1>Not Found</h1>
+<p>The requested URL was not found on this server.</p>
+</body>
+</html>
