@@ -34,7 +34,8 @@ h2 {
     margin:12px 20px 4px 20px;
     padding:8px;
     font-size:18pt;
-    border:dotted 2px #5962b8;
+    background-color: #e3e2b4;
+    border-radius: 12px;
 }
 h3 {
     font-size:14pt;
@@ -42,6 +43,7 @@ h3 {
     margin:10px 20px 0 28px;
     padding:0;
     border-bottom:1pt solid gray;
+    border-radius: 6px;
 }
 h4 {
     font-size:12pt;
